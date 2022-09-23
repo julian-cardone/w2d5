@@ -22,3 +22,40 @@ header>img {
     width: 100px;
 }
 
+ul a{
+    text-decoration: none;
+    color: darkred;
+}
+
+html {
+    background-color: darkgrey;
+}
+
+.sub {
+cursor: pointer;
+outline: none;
+}
+
+.exp {
+    cursor: pointer;
+    outline: none;
+    }
+
+.rat {
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+    background-image:url(./stars.png);
+    }
+
+.sub:last-child {
+    background-color: gold;
+}
+
+.directions-list:nth-child(odd){
+    background: lightgray;
+}
+
+h2+.user_review{
+    border-top: 1px solid black;
+}
